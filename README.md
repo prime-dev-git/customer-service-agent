@@ -145,22 +145,22 @@ SILENCE_DURATION = 1.5     # Seconds before stopping recording
 ### Step 1: Start Required Services
 ```bash
 # Terminal 1: Start Whisper STT server
-python whisper_server.py
+python stt.py
 
 # Terminal 2: Start Kokoro TTS server
-python kokoro_server.py
+python tts.py
 ```
 
 ### Step 2: Launch Voice Agent
 ```bash
 # Start NEW session
-python agent.py
+python app.py
 
 # Resume EXISTING session
-python agent.py <session-id>
+python app.py <session-id>
 
 # List available sessions
-python agent.py --list
+python app.py --list
 ```
 
 ### During Conversation
