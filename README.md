@@ -96,7 +96,7 @@ ollama pull nomic-embed-text    # Embedding model
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/customer-service-agent.git
+git clone https://github.com/prime-dev-git/customer-service-agent.git
 cd customer-service-agent
 
 # 2. Create virtual environment
